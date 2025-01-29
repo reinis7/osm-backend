@@ -1,0 +1,16 @@
+{
+  "name": "tileserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tileserver-gl data/osm-2020-02-10-v3.11_japan_nagoya.mbtiles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tileserver-gl": "^5.1.3",
+    "tileserver-gl-styles": "^2.0.0"
+  }
+}
