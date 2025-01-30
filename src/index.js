@@ -12,7 +12,7 @@ app.use(cors());
 const PORT = process.env.APP_PORT || 3000; // Backend port
 const TILESERVER_PORT = process.env.TILESERVER_PORT || 8080; // TileServer GL Light port
 // Path to MBTiles file
-const MBTILES_PATH = path.join(__dirname, "../data", "osm-2020-02-10-v3.11_japan_nagoya.mbtiles");
+const MBTILES_PATH = path.join(__dirname, "../data", "osm-2020-02-10-v3.11_asia_north-korea.mbtiles");
 const DB_PATH = path.join(__dirname, "../data", "nodes.sqlite3");
 
 
